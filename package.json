@@ -1,0 +1,29 @@
+{
+  "name": "Blog-node",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --verbose app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinqh/Blog-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinqh/Blog-node/issues"
+  },
+  "homepage": "https://github.com/jinqh/Blog-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
